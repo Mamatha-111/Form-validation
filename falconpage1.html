@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link href="bootstrap.css" rel="stylesheet">
+    <script src="jquery-3.7.0.min.js"></script>
+    <script src="popper.js"></script>
+    <script src="bootstrap.js"></script>
+
+
+    <link rel="stylesheet" href="nav1.css">
+    <link rel="stylesheet" href="nav2.css">
+    <script src="sidebar.js"></script>
+    <title>Flexbox layout</title>
+</head>
+
+<body>
+    <div class="top-bar">
+        <div class="side-bar col-1">
+            <i class="bi bi-list" style="font-size:24px"></i>
+        </div>
+        <div class="logo col-3">
+            <a href="#"> <img src="C:\Users\Lenovo M\Desktop\Css1\images\images.jpg" alt="no img">falcon</a>
+        </div>
+        <div class="col-4">
+            <div class="input-group">
+                <input class="form-control border-end-0 border rounded-pill" type="text" value="search"
+                    id="example-search-input">
+                <span class="input-group-append">
+                    <button class="btn btn-outline-secondary bg-white border-start-0 border rounded-pill ms-n3"
+                        type="button">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </span>
+            </div>
+        </div>
+        <div class="links col-4">
+            <ul class="icons">
+                <li><i class="fa fa-moon-o" onclick="myFunction()" style="font-size:24px"></i> </a> </li>
+                <li><i class="fa fa-shopping-cart" style="font-size:24px"></i></a> </li>
+                <li><i class="fa fa-bell" style="font-size:24px"></i></li>
+                <li><i class="fa fa-th" style="font-size:24px"></i></li>
+                <li><i class="fa fa-user-circle" style="font-size:24px"></i></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="col-lg-12 float-l">
+        <div class="col-lg-2 float-l">
+            <div class="vertical-menu">
+                <div class="sub-btn">
+                    <div class="item"><i class="fa fa-dashboard"></i>Dashboard<i class="fa fa-angle-up"></i></a> </div>
+                </div>
+                <div class="sub-menu">
+                    <a href="#" class="Default">Default</a>
+                    <a href="#" class="Analytics">Analytics</a>
+                    <a href="#" class="CRM">CRM</a>
+                    <a href="#" class="Logistcics">Logistcics</a>
+                    <a href="#" class="LMS">LMS</a>
+                    <a href="#" class="E commerce">E commerce</a>
+                    <a href="#" class="SaaS">SaaS</a>
+                    <a href="#" class="Support Desk">Support Desk</a>
+                </div>
+                <h2>App</h2>
+                <hr>
+                <div class="item"><a href="#"><i class="fa fa-calendar" style="font-size:24px"></i>Calendar</a></div>
+                <div class="item"><a href="#"><i class="fa fa-wechat" style="font-size:24px"></i>Chat</a></div>
+                <div class="item"><a href="#"><i class="material-icons" style="font-size:24px">email</i>Email</a> </div>
+                <div class="item"><a href="#"><i class="fa fa-cart-arrow-down" style="font-size:24px"></i>Cart</a>
+                </div>
+                <div class="item"><a href="#"><i class="fa fa-share-square-o" style="font-size:24px"></i>Share</a>
+                </div>
+                <div class="item"><a href="#"><i class="material-icons" style="font-size:24px">person</i>Social</a>
+                </div>
+                <div class="item"><a href="#"><i class="material-icons" style="font-size:24px">event</i>Event</a> </div>
+            </div>
+           <h2>Pages</h2> 
+            <hr>
+            <div class="sub-menu2">
+                <i class="fa fa-flag" style="font-size:24px">starter</i>
+                <i class="fa fa-lock" style="font-size:24px">Authentication</i>
+                <i class="fa fa-user" style="font-size:24px">User</i>
+                <i class="fa fa-exclamation-circle" style="font-size:24px">Error</i>
+            </div>
+        </div>
+        <div class="col-lg-10 float-l">
+            <div class="col-lg-6 float-l">
+                <div class="p-2 bg-fff h-150 m-b-15 m-l-0">Weekly sales</div>
+            </div>
+            <div class="col-lg-6 float-l">
+                <div class="p-2 bg-fff h-150 m-b-15 m-l-0 m-r-20">Total order
+                    <img src="order.jpg" height="70px" width="100px" alt="noimg">
+                </div>
+            </div>
+            <div class="col-lg-6 float-l">
+                <div class="p-2 bg-fff h-150 m-b-15 m-l-0">Market Share</div>
+            </div>
+            <div class="col-lg-6 float-l">
+                <div class="p-2 bg-fff h-150 m-b-15 m-l-0">Weather<a style="text-align: right;">
+                        <h2>31°</h2>
+                    </a>
+                    <img src="weather-icon (1).png" style="display: flex;" width="50px" height="50px" alt="noimg">
+                </div>
+            </div>
+            <div class="col-lg-6 float-l">
+                <div class="p-2 bg-fff h-300 m-b-15 m-l-0">Running Projects</div>
+            </div>
+            <div class="col-lg-6 float-l">
+                <div class="p-2 bg-fff h-300 m-b-15 m-l-0">Total Sales</div>
+            </div>
+            <div class="col-lg-7 float-l">
+                <div class="p-2 bg-fff h-150 m-b-15 m-l-0">Using Storage
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 15%"></div>
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 30%"></div>
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 20%"></div>
+                    </div>
+
+                    <a><i class="fa fa-circle" style="color:blue"> </i>Regular</a>
+                    <a><i class="fa fa-circle" style="color:deepskyblue"></i>System</a>
+                    <a><i class="fa fa-circle" style="color:green"></i>Shared</a>
+                    <a><i class="fa fa-circle" style="color:grey"></i>Free</a>
+
+
+                </div>
+            </div>
+            <div class="col-lg-5 float-l">
+                <div class="fw-bold text-danger p-2 bg-fff h-150 m-b-15 m-l-0"><u>Running out of your space?
+                    </u><br>Your storage will be running out soon. Get more space and powerful productivity
+                    features.<br>
+                    <a href="#">upgrade your storage ></a>
+                </div>
+            </div>
+            <div class="col-lg-9 float-l">
+                <div class="p-2 bg-fff h-300 m-b-15 m-l-0">Best Selling Products</div>
+            </div>
+            <div class="col-lg-3 float-l">
+                <div class="p-2 bg-fff h-300 m-b-15 m-l-0">Shared Files</div>
+            </div>
+            <div class="col-lg-6 float-l">
+                <div class="p-2 bg-fff h-300 m-b-15 m-l-0">Active Users</div>
+            </div>
+            <div class="col-lg-6 float-l">
+                <div class="p-2 bg-fff h-300 m-b-15">Bandwidth Saved</div>
+            </div>
+            <div class="col-lg-12 float-l">
+                <div class="p-2 bg-fff h-300 m-b-15">Top products
+                    <img src="topproducts.jpg" height="300px" width="800px" alt="noimg">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    </div>
+    </div>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+        google.charts.load("current", { packages: ['corechart'] });
+        google.charts.setOnLoadCallback(drawChart);
+        function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+                ["Element", "Density", { role: "style" }],
+                ["Copper", 8.94, "#b87333"],
+                ["Silver", 10.49, "silver"],
+                ["Gold", 19.30, "gold"],
+                ["Platinum", 21.45, "color: #e5e4e2"]
+            ]);
+
+            var view = new google.visualization.DataView(data);
+            view.setColumns([0, 1,
+                {
+                    calc: "stringify",
+                    sourceColumn: 1,
+                    type: "string",
+                    role: "annotation"
+                },
+                2]);
+
+            var options = {
+                title: 'sales of the week',
+                width: 250,
+                height: 150,
+                bar: { groupWidth: "95%" },
+                legend: { position: "none" },
+            };
+            var chart = new google.visualization.ColumnChart(document.getElementById("columnchart_values"));
+            chart.draw(view, options);
+        }
+    </script>
+    <div id="columnchart_values" style="width: 30px; height: 30px; margin-left: 450px;"></div>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+        google.charts.load("current", { packages: ["corechart"] });
+        google.charts.setOnLoadCallback(drawChart);
+        function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+                ['Mobiles', 'Hours per Day'],
+                ['Samsung', 11],
+                ['Apple', 2],
+                ['Vivo', 2],
+                ['Oppo', 2],
+                ['Micro', 7]
+            ]);
+
+            var options = {
+                title: 'Mobile shares in the market',
+                pieHole: 0.4,
+            };
+
+            var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+            chart.draw(data, options);
+        }
+    </script>
+    <div id="donutchart" style="width: 280px; height: 120px;margin-left:400px; margin-top: 140px;"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+        google.charts.load('current', { 'packages': ['corechart'] });
+        google.charts.setOnLoadCallback(drawChart);
+
+        function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+                ['Year', 'Sales', 'Expenses'],
+                ['2004', 1000, 400],
+                ['2005', 1170, 460],
+                ['2006', 660, 1120],
+                ['2007', 1030, 540]
+            ]);
+
+            var options = {
+                title: 'Company Performance',
+                curveType: 'function',
+                legend: { position: 'bottom' }
+            };
+
+            var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+            chart.draw(data, options);
+        }
+    </script>
+    <div id="curve_chart" style="width: 400px; height: 280px;margin-left:800px; margin-top: 40px;"></div>
+    <footer>
+        <p style="text-align:center;color: grey;">Thankyou for creating with Falcon|2023</p>
+    </footer>
+
+</body>
+
+</html>
